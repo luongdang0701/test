@@ -16,11 +16,19 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-from website.views import welcome,date,about
+from website.views import welcome,date,about,vishakha,rebecca,luong,bryan,ashwini,malcolm
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',welcome),
     path('date', date),
-    path('about', about)
+    path('about', about),
+    path('vishakha', vishakha),
+    path('rebecca', rebecca),
+    path('luong', luong),
+    path('bryan', bryan),
+    path('ashwini', ashwini),
+    path('malcolm', malcolm),
+
+
 ]
